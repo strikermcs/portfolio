@@ -36,7 +36,7 @@ function Nav() {
       <a href="#header" className={activeNav === '#header' ? 'active' : ''}><AiOutlineHome /></a>
       <a href="#about" className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
       <a href="#experience" className={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
-      <a href="#services" className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
+      <a href="#service" className={activeNav === '#service' ? 'active' : ''}><RiServiceLine /></a>
       <a href="#contact" className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
     </nav>
   )
