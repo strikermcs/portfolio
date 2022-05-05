@@ -6,6 +6,7 @@ import { AiOutlineUser } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
 import { RiServiceLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
+import { BiPhotoAlbum } from 'react-icons/bi'
 
 function Nav() {
   const [activeNav, setActiveNav] = useState('#')
@@ -37,6 +38,7 @@ function Nav() {
       <a href="#about" className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
       <a href="#experience" className={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
       <a href="#service" className={activeNav === '#service' ? 'active' : ''}><RiServiceLine /></a>
+      <a href="#portfolio" className={activeNav === '#portfolio' ? 'active' : ''}><BiPhotoAlbum /></a>
       <a href="#contact" className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
     </nav>
   )
