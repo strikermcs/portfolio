@@ -1,26 +1,36 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from 'emailjs-com';
 import './contact.css'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FaTelegramPlane } from 'react-icons/fa'
 import { AiOutlineSkype } from 'react-icons/ai'
+import DialogWindow from '../dialogWindow/DialogWindow'
 
 function Contact() {
 
   const form = useRef()
+  const [messageData, setMessageData] = useState({isVisible: false, error: false, loading: false})
 
   const sendEMail = (e) => {
     e.preventDefault()
 
+    setMessageData({isVisible: true, error: false, loading: true })
+
     emailjs.sendForm("service_owwboma", "template_qttqef7",
       form.current, "aVmG8NFFdQl8I1UaV")
       .then((result) => {
-          console.log(result.text);
+        setMessageData({isVisible: true, error: false, loading: false})
       }, (error) => {
-          console.log(error.text);
+          setMessageData({isVisible: true, error: true, loading: false})
       });
+    
+    e.target.reset();
    
-   }
+  }
+  
+  const closeModal = () => { 
+    setMessageData({isVisible: false, error: false, loading: false })
+  }
 
   return (
     <section id='contact' className='observe'>
@@ -55,6 +65,9 @@ function Contact() {
           <button type="submit" className="btn btn-primary">Send Message</button>
         </form>
       </div>
+
+      {messageData.isVisible &&
+        <DialogWindow error={messageData.error} callback={closeModal} loading={messageData.loading} />}
     </section>
   )
 }

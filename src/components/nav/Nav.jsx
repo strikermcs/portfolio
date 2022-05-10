@@ -9,7 +9,7 @@ import { BiMessageSquareDetail } from 'react-icons/bi'
 import { BiPhotoAlbum } from 'react-icons/bi'
 
 function Nav() {
-  const [activeNav, setActiveNav] = useState('#')
+  const [activeNav, setActiveNav] = useState('#header')
 
   useEffect(() => {
     const options = {

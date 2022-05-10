@@ -1,3 +1,7 @@
+#contact {
+    position: relative;
+}
+
 .container.contact__container {
     width: 58%;
     display: grid;
@@ -52,7 +56,6 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
-
 
 @media screen and (max-width: 1024px){
     .container.contact__container {
