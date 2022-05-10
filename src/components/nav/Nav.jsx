@@ -24,7 +24,6 @@ function Nav() {
     function callback (entries, observer) {
       entries.forEach(entry => {
         if(entry.isIntersecting){
-          console.log(entry.target.id)
           setActiveNav(`#${entry.target.id}`)
         }
       })

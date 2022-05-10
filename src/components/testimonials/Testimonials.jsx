@@ -27,8 +27,8 @@ function Testimonials() {
       >
         {testimonials.map(testimonial => {
           return (
-            <SwiperSlide>
-              <TestimonialItem testimonial={testimonial} key={testimonial.id}/>
+            <SwiperSlide key={testimonial.id}>
+              <TestimonialItem testimonial={testimonial} />
             </SwiperSlide>
           )
         })}
