@@ -8,49 +8,50 @@ import IMG6 from '../../assets/portfolio6.jpg'
 export const portfolioList = [
   {
     id: 0,
-    title: 'Name of project',
+    title: 'Quizzaro - service for creating quiz',
     image: IMG1,
-    gitHubUrl: 'https://github.com/',
-    liveDemoUrl: 'https://github.com/'
+    gitHubUrl: 'https://github.com/strikermcs/Quizzaro',
+    liveDemoUrl: 'https://quizzaro-beryl.vercel.app/'
   },
+
 
   {
     id: 1,
-    title: 'Name of project',
-    image: IMG2,
-    gitHubUrl: 'https://github.com/',
-    liveDemoUrl: 'https://github.com/'
+    title: 'Fayna - Ukraine Social Network',
+    image: IMG3,
+    gitHubUrl: 'https://github.com/orgs/Fayna-Social-Network/repositories',
+    liveDemoUrl: 'https://github.com/orgs/Fayna-Social-Network/repositories'
   },
 
   {
     id: 2,
-    title: 'Name of project',
-    image: IMG3,
-    gitHubUrl: 'https://github.com/',
-    liveDemoUrl: 'https://github.com/'
+    title: 'Geld - CRM platform',
+    image: IMG2,
+    gitHubUrl: 'https://github.com/strikermcs/Geld',
+    liveDemoUrl: 'https://geld.vercel.app/'
   },
 
   {
     id: 3,
-    title: 'Name of project',
+    title: 'Landing page',
     image: IMG4,
-    gitHubUrl: 'https://github.com/',
-    liveDemoUrl: 'https://github.com/'
+    gitHubUrl: 'https://github.com/strikermcs/Bicycle_landing_page',
+    liveDemoUrl: 'https://strikermcs.github.io/Bicycle_landing_page/dist/'
   },
 
   {
     id: 4,
-    title: 'Name of project',
+    title: 'LANDING PAGE(portfolio)',
     image: IMG5,
-    gitHubUrl: 'https://github.com/',
-    liveDemoUrl: 'https://github.com/'
+    gitHubUrl: 'https://github.com/strikermcs/Aerospace',
+    liveDemoUrl: 'http://strikermcs.github.io/Aerospace/'
   },
 
   {
     id: 5,
-    title: 'Name of project',
+    title: 'Luxtrader',
     image: IMG6,
-    gitHubUrl: 'https://github.com/',
-    liveDemoUrl: 'https://github.com/'
+    gitHubUrl: 'https://github.com/strikermcs/Luxtrader',
+    liveDemoUrl: 'http://strikermcs.github.io/Luxtrader/'
   },
 ]

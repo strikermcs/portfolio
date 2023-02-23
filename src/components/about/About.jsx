@@ -29,20 +29,20 @@ function About() {
             <article className="about__card">
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>6+ Worldwide</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Complete</small>
+              <small>12+ Complete</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vel animi ea error consequuntur. 
-            Vero repellendus illo, fugit minima modi perferendis, dolores minus veniam error 
-            amet quibusdam voluptates et quis?
+          Pavel Semeniuk is a skilled software developer with expertise in C#, JavaScript, TypeScript, and ASP.NET. 
+          With a keen eye for detail and a passion for building efficient, user-friendly applications. 
+          Pavel's commitment to staying up-to-date with the latest trends and technologies in the industry is reflected in the high-quality work he produces.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

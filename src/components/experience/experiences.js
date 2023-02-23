@@ -2,37 +2,37 @@ export const frontend = [
   {
     id: 0,
     skill: 'HTML',
-    level: 'Experienced'
+    level: 'Mastery'
   },
 
   {
     id: 1,
-    skill: 'HTML',
-    level: 'Experienced'
+    skill: 'CSS',
+    level: 'Advanced'
   },
 
   {
     id: 2,
-    skill: 'HTML',
-    level: 'Experienced'
+    skill: 'JavaScript',
+    level: 'Intermediate'
   },
 
   {
     id: 3,
-    skill: 'HTML',
-    level: 'Experienced'
+    skill: 'TypeScript',
+    level: 'Intermediate'
   },
 
   {
     id: 4,
-    skill: 'HTML',
-    level: 'Experienced'
+    skill: 'VueJs',
+    level: 'Advanced'
   },
 
   {
     id: 5,
-    skill: 'HTML',
-    level: 'Experienced'
+    skill: 'ReactJs',
+    level: 'Basic'
   },
 ]
 
@@ -40,36 +40,36 @@ export const backend = [
   {
     id: 0,
     skill: 'C#',
-    level: 'Experienced'
+    level: 'Intermediate'
   },
 
   {
     id: 1,
-    skill: 'C#',
-    level: 'Experienced'
+    skill: 'ASP.NET',
+    level: 'Basic'
   },
 
   {
     id: 2,
-    skill: 'C#',
-    level: 'Experienced'
+    skill: 'PostgreSQL',
+    level: 'Basic'
   },
 
   {
     id: 3,
-    skill: 'C#',
-    level: 'Experienced'
+    skill: 'EntityFramework',
+    level: 'Intermediate'
   },
 
   {
     id: 4,
-    skill: 'C#',
-    level: 'Experienced'
+    skill: 'NodeJs',
+    level: 'Intermediate'
   },
 
   {
     id: 5,
-    skill: 'C#',
-    level: 'Experienced'
+    skill: 'Go',
+    level: 'Basic'
   },
 ] 
